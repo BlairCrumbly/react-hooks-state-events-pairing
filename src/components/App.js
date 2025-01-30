@@ -1,10 +1,13 @@
 import video from "../data/video.js";
+import VideoContainer from './VideoContainer.js'
 
 function App() {
   console.log("Here's your data:", video);
 
   return (
     <div className="App">
+        
+
       <iframe
         width="919"
         height="525"
@@ -13,6 +16,7 @@ function App() {
         allowFullScreen
         title="Thinking in React"
       />
+      <VideoContainer/>
     </div>
   );
 }
